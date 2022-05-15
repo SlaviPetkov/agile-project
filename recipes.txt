@@ -1,0 +1,7 @@
+|      Server name= Slavi      |
+|         order id= 21         |
+|       table number= 12       |
+| restaurant code=BG5467830567 |
+|    total amount = 127.92     |
+|      payment type= CASH      |
+|    date= 2022.4.09 05:38     |
