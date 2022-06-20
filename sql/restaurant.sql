@@ -152,3 +152,19 @@ alter table table_top
 alter table table_top
     add constraint table_top_final_order_id_fk
         foreign key (order_id) references final_order (id);
+
+INSERT INTO `restaurant_db`.`table_top` (`code`, `status`, `capacity`) VALUES ('10', 'FREE', '4');
+INSERT INTO `restaurant_db`.`table_top` (`code`, `status`, `capacity`) VALUES ('11', 'FREE', '6');
+INSERT INTO `restaurant_db`.`table_top` (`code`, `status`, `capacity`) VALUES ('12', 'FREE', '2');
+INSERT INTO `restaurant_db`.`table_top` (`code`, `status`, `capacity`) VALUES ('13', 'FREE', '8');
+INSERT INTO `restaurant_db`.`table_top` (`code`, `status`, `capacity`) VALUES ('14', 'FREE', '4');
+
+INSERT INTO `restaurant_db`.`table_top` (`code`, `status`, `capacity`) VALUES ('10', 'FREE', '4');
+
+INSERT INTO `restaurant_db`.`users` (`first_name`, `last_name`, `username`, `password`, `mobile`, `gender`, `email`, `role`) VALUES ('Ivan', 'Petkov', 'admin', '1111', '0888657477', 'MALE', 'vankata@abv.bg', 'ADMINISTRATOR');
+
+INSERT INTO `restaurant_db`.`items` (`user_id`, `title`, `slug`, `summary`, `type`, `cooking`, `price`) VALUES ('1', 'Double Cheeseburger', 'double_cheeseburger', 'grilled burger with two patties, cheese, pickles, ketchup, and mustard on a sesame seed bun.', 'BURGER', '1', '13.7');
+INSERT INTO `restaurant_dbv`.`items` (`user_id`, `title`, `slug`, `summary`,`type`, `cooking`, `price`) VALUES ('1', 'Pepperoni Pizza', 'pepperoni_pizza','', 'PIZZA', '1', '15.9');
+INSERT INTO `restaurant_dbv`.`items` (`user_id`, `title`, `slug`, `summary`,`type`, `cooking`, `price`) VALUES ('1', 'Coca Cola', 'Coke','','OTHER', '0', '3.3');
+
+
